@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        nav{
+            background-color: rgb(255, 137, 174);
+            display: flex;
+            justify-content: space-around;
+            width: 1224px;
+            padding: 5px;
+            height: 40px;
+        }
+        .navBtn{
+            background: rgb(207,51,101);
+            background: linear-gradient(90deg, rgb(255,137,174) 1%, rgb(207,51,101) 1%, rgb(170,27,109) 100%);
+            border: 0px;
+            border-left: solid 2.5px rgb(207, 51, 101);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 20px;
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 240px 240px 240px 240px 240px ;
+            grid-template-rows: 60px 80px 160px 320px 240px 160px 160px 160px;
+            gap: 5px;
+            padding: 5px;
+            background-color: white;
+            width: fit-content;
+        }
+        .items{
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 30px;
+            padding: 0;
+        }
+        #item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            background-image: url("header.png");
+        }
+        #item2{
+            background-image: url("facebook.png");
+        }
+        #item3{
+            background-image: url("twitter.png");
+        }
+        #item4{
+            background-image: url("mask.png");
+        }
+        #item5{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            background-image: url("bday.png");
+            background-size: 500px 320px;
+        }
+        #item6{
+            background-image: url("mask.png");
+        }
+        #item7{
+            background-image: url("mask.png");
+        }
+        #item8{
+            background-image: url("mask.png");
+        }
+        #item9{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 5;
+            grid-row-end: 7;
+        }
+        #item10{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        #item13{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 6;
+            grid-row-end: 8; 
+        }
+        #item14{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 6;
+            grid-row-end: 7; 
+        }
+        #item21{
+            grid-column-start: 2;
+            grid-column-end: 6;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <button class="navBtn">Enter Site</button>
+        <button class="navBtn">My Account</button>
+        <button class="navBtn">Track Order</button>
+        <button class="navBtn">Contact Info</button>
+    </nav>
+    <div class="container">
+        <div id="item1" class="items"></div>
+        <div id="item2" class="items"></div>
+        <div id="item3" class="items"></div>
+        <div id="item4" class="items"></div>
+        <div id="item5" class="items"></div>
+        <div id="item6" class="items"></div>
+        <div id="item7" class="items"></div>
+        <div id="item8" class="items"></div>
+        <div id="item9" class="items"></div>
+        <div id="item10" class="items"></div>
+        <div id="item11" class="items"></div>
+        <div id="item12" class="items"></div>
+        <div id="item13" class="items"></div>
+        <div id="item14" class="items"></div>
+        <div id="item15" class="items"></div>
+        <div id="item16" class="items"></div>
+        <div id="item17" class="items"></div>
+        <div id="item18" class="items"></div>
+        <div id="item19" class="items"></div>
+        <div id="item20" class="items"></div>
+        <div id="item21" class="items"></div>
+    </div>
+</body>
+</html>
